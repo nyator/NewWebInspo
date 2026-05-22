@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="mx-auto w-[min(1340px,calc(100%_-_2.5rem))] py-10">
       <div className="grid gap-7 border-b border-white/10 pb-9 md:grid-cols-[0.7fr_1.2fr_1.6fr] md:items-center">
         <a href="#top" className="text-lg font-extrabold text-white border-r border-white/40 pl-7 md:pl-0 ">
-          Forge.
+          Forge<span className='text-orange-500'>.</span>
         </a>
         <p className="max-w-74 text-sm leading-7 text-zinc-400 ">
           Solutions that drive success and propel your business forward.
@@ -45,7 +45,7 @@ export function Footer() {
             <Twitter size={18} />
           </a>
           <a
-            className="grid size-9 place-items-center  text-orange-500 transition hover:-translate-y-1 hover:bg-orange-500/20"
+            className="grid size-9 place-items-center text-orange-500 transition hover:-translate-y-1 hover:bg-orange-500/20"
             href="#top"
             aria-label="LinkedIn"
           >

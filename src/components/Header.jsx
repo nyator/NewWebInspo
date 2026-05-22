@@ -14,7 +14,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 flex min-h-19 w-full items-center justify-between border-b border-white/10 bg-[#0b0b12]/80 px-5 backdrop-blur-xl md:px-10">
       <a href="#top" className="text-lg font-extrabold text-white" aria-label="Forge home">
-        Forge.
+        Forge<span className='text-orange-500'>.</span>
       </a>
       <nav
         className={`fixed inset-x-3 top-20 grid rounded-lg border border-white/10 bg-[#0e0d16] p-4 shadow-2xl transition md:static md:flex md:items-center md:gap-7 md:border-0 md:bg-transparent md:p-0 md:shadow-none ${
