@@ -8,7 +8,7 @@ export function FinalCta() {
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.08)_0_1px,transparent_1px_100%)] bg-[length:92px_100%] opacity-70" />
         <Brain className="absolute bottom-[17%] right-[11%] z-[2] rotate-6 text-orange-500 opacity-70" size={48} />
         <h2 className="relative z-[2] max-w-4xl text-center text-4xl font-medium uppercase leading-tight text-white md:text-6xl">
-          From branding and design to <span className="text-orange-500">innovation and strategy</span>, we offer a full
+          From branding and design to <span className="text-orange-500 font-bold">innovation and strategy</span>, we offer a full
           suite of services
         </h2>
       </div>

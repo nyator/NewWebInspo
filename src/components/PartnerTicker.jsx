@@ -6,7 +6,7 @@ export function PartnerTicker() {
   const PartnerIcon = partnerIcon;
 
   return (
-    <section className="mx-auto w-full max-w-7xl overflow-hidden pb-24" aria-label="Partner logos" data-reveal>
+    <section className="mx-auto w-full max-w-7xl overflow-hidden " aria-label="Partner logos" data-reveal>
       <p className="mb-6 text-center text-xs font-bold text-zinc-500">Join 250+ companies already growing</p>
       <div className="[mask-image:linear-gradient(90deg,transparent,black_14%,black_86%,transparent)]">
         <div className="flex w-max animate-ticker gap-9">
