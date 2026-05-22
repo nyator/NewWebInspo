@@ -12,7 +12,8 @@ export function Header() {
   }, [isOpen]);
 
   return (
-    <header className="sticky top-0 z-50 flex min-h-19 w-full items-center justify-between border-b border-white/10 bg-[#0b0b12]/80 px-5 backdrop-blur-xl md:px-10">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0b0b12]/80  backdrop-blur-xl md:px-10">
+      <div className='flex min-h-19 w-[min(1440px,calc(100%-2.75rem))] max-md:w-[min(calc(100%-0.75rem),1240px)] mx-auto items-center justify-between md:border-r md:border-l border-white/10 py-4 px-2 md:px-5'>
       <a href="#top" className="text-lg font-extrabold text-white" aria-label="Forge home">
         Forge<span className='text-orange-500'>.</span>
       </a>
@@ -44,6 +45,7 @@ export function Header() {
       >
         {isOpen ? <X size={22} /> : <Menu size={22} />}
       </button>
+      </div>
     </header>
   );
 }
